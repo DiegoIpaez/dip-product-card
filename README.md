@@ -1,10 +1,8 @@
 # PRODUCT-CARD
 
-Este es un parque de test de despliegue en NPM
+Is a package that provides the Product Card component. This project is nothing more than a practice load to NPM
 
-### Diego Ivan Paez
-
-## Ejemplo
+## Example
 ```
 import { ProductCard } from 'dip-product-cards
 
