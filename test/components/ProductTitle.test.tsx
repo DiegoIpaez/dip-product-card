@@ -5,7 +5,7 @@ import { ProductCard, ProductTitle } from '../../src/components';
 
 describe('ProductTitle', () => {
   test('should display the component correctly with the custom title', () => {
-    const wrapper = renderer.create(<ProductTitle title='test' />);
+    const wrapper = renderer.create(<ProductTitle title="test" />);
     const tree = wrapper.toJSON();
     expect(tree).toMatchSnapshot();
   });
