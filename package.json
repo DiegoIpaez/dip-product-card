@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -60,5 +60,11 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5"
-  }
+  },
+  "repository": {
+    "url": "https://github.com/DiegoIpaez/dip-product-card/",
+    "type": "git"
+  },
+  "homepage": "https://github.com/DiegoIpaez",
+  "keywords": ["product", "card", "shoppingCard"]
 }
