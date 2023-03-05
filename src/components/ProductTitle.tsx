@@ -1,6 +1,6 @@
-import styles from "../styles/styles.module.css";
-import React, { CSSProperties, useContext } from "react";
-import { ProductContext } from "./ProductCard";
+import styles from '../styles/styles.module.css';
+import React, { CSSProperties, useContext } from 'react';
+import { ProductContext } from './ProductCard';
 
 export interface Props {
   className?: string;

@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import { InitialValues, onChangeArgs, Product } from "../interfaces/interfaces";
+import { useEffect, useRef, useState } from 'react';
+import { InitialValues, onChangeArgs, Product } from '../interfaces/interfaces';
 
 interface useProductArgs {
   product: Product;
@@ -29,7 +29,7 @@ export const useProduct = ({
   const reset = () => {
     if (initialValues?.count) return setCounter(initialValues?.count);
     setCounter(value);
-  }
+  };
 
   useEffect(() => {
     if (!isMounted.current) return;
@@ -43,7 +43,8 @@ export const useProduct = ({
 
   return {
     counter,
-    isMaxCountReached: !!initialValues?.count && initialValues.maxCount === counter,
+    isMaxCountReached:
+      !!initialValues?.count && initialValues.maxCount === counter,
     maxCount: initialValues?.maxCount,
     increaseBy,
     reset,
